@@ -1,0 +1,7 @@
+.bola{
+    Width: 50px;
+    Height: 50px;
+    Backgound: black;
+    Border-radius: 25px; /*para deixar uma bola*/
+    Position: absolute; /*para flutuar na tela*/
+}
