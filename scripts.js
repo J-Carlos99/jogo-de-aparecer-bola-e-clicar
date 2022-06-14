@@ -9,11 +9,11 @@ Function addbola(){
      //para o balão sumir
      Bola.setAttribute(“onclick”, “estourar(this)”);
      //para aparecer na tela
-     Document.bady.appendChild(bola);
+     Document.body.appendChild(bola);
 }
 Function estourar(el){
     //para remover o elemento da tela
-    Document.bady.removerChild(el);
+    Document.body.removerChild(el);
 }
 //evento de página
 Function iniciar(){
